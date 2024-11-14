@@ -13,6 +13,7 @@ add_executable(lora_tx lora_tx.cpp)
 add_executable(fsk_tx fsk_tx.cpp)
 add_executable(fsk_rx fsk_rx.cpp)
 add_executable(client_gps client.cpp)
+add_executable(server server.cpp)
 
 # Find and link the WiringPi library
 find_library(WIRINGPI_LIB wiringPi)
