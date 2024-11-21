@@ -116,7 +116,7 @@ int main(int argc, char** argv) {
         printf("Read failed, code %d\n", state);
       } else {
         printf("Data: %s\n", (char*)buff);
-        send(sock, buff, strlen(buff), 0);
+        send(sock, buff, 256, 0);
         cout << "GPS data successfully received and sent over TCP/IP" << endl;
         char buf[1024] = {0};
         read(sock, buf, 1024);
