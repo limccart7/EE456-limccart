@@ -64,7 +64,7 @@ int main(int argc, char** argv) {
   serv_addr.sin_family = AF_INET;
   serv_addr.sin_port = htons(PORT);
 
-  if(inet_pton(AF_INET, "10.40.127.139", &serv_addr.sin_addr) <= 0){ //change this to end destination IP
+  if(inet_pton(AF_INET, "10.40.115.112", &serv_addr.sin_addr) <= 0){ //change this to end destination IP
       perror("Invalid address / Address not supported");
       return -1;
   }
