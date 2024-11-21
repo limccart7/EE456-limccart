@@ -2,11 +2,12 @@
 # LoRa 1262 Project  
 
 **Class:** EE456  
-**Project Name:** LoRa 1262  
+**Project Name:** LoRa 1262 GPS Data Transmission
 
-This project utilizes the SX1262 chip and Raspberry Pi to transmit and receive data using LoRa and FSK modulation.
+This project leverages the SX1262 LoRa module and Raspberry Pi to transmit GPS data wirelessly using LoRa technology. The data is then forwarded via TCP/IP to another Raspberry Pi, where it is stored for further use.
 
 ***********VERY IMPORTANT***********  
+
 - Enable SPI before attempting to transmit or receive.  
 Run the following commands:  
 `sudo raspi-config`  
@@ -17,17 +18,26 @@ Reboot your Raspberry Pi.
 ## Installation Instructions  
 
 --Run  `sudo apt update && sudo apt install -y cmake git`  
-
-1. Clone the GitHub Repository for EE456:  
-`git clone https://github.com/BenDuval/EE456.git`  
+1. Enable SPI on the Raspberry Pi:   
+   Run the following commands to enable SPI:
+   `sudo raspi-config`
+   Navigate to Interfacing Options -> SPI and enable it. Reboot
+   your Raspberry Pi.
+2. Install Required Dependencies:
+   Update your system and install necessary tools:
+   `sudo apt update && sudo apt install -y cmake git`   
+3. Clone the GitHub Repository for EE456:   
+`git clone https://github.com/limccart7/EE456.git`
+`cd EE456`
+  
 Navigate into the 'EE456' directory.  
 
-2. Navigate to 'WiringPi' directory:  
+4. Navigate to 'WiringPi' directory:  
 Run:  
 `./build`  
   
 
-3. Navigate to 'RadioLib/examples/NonAudrino/Raspberry/'  
+5. Navigate to 'RadioLib/examples/NonAudrino/Raspberry/'  
 Run:  
 `mkdir build`  
 `cd build`  
@@ -54,16 +64,29 @@ Then run:
 
 Ensure your wiring matches the above configuration for proper operation with the RPI and SX1262 LORAWAN Pi Hat.  
 
-## Running the Examples  
+## Running the System  
 
-1. **Transmit Example**:  
-Run the `lora_tx.cpp` example to confirm transmission without errors using:  
-`sudo ./lora_rx`  
+1. **Start the GPS Transmitter**:  
+On the transmitting Raspberry Pi, run the GPS transmission script:     
+`sudo ./lora_gps_tx`  
 
-2. **Receive Example**:  
-Run the `lora_rx.cpp` example to confirm initialization without any errors using:  
-`sudo ./lora_rx`  
-Check for errors and verify successful reception.  
+2. **Start the Lora Receiver/Client**:  
+On the receiving Raspberry Pi, initialize the LoRa receiver/Client:  
+`sudo ./rx_client`  
+Check for errors and verify successful reception.
+
+3. **Start the TCP/IP Server**:
+On the third Raspberry Pi, run the server script to receive and store data:
+`sudo ./server`
+
+## Troubleshooting
+- SPI Issues:
+  Ensure SPI is enabled on all Raspberry Pis. Reboot after enabling SPI.
+- Transmission Errors:
+  Verify the wiring and power connections for the SX1262 LoRa module.
+- TCP/IP Connection Errors:
+  Check the IP addresses and ports in the client and server scripts.
+  Ensure all devices are on the same network. 
 
 ## Additional Resources  
 
