@@ -44,16 +44,6 @@ Run:
 Then run:  
 `make` **(make must be ran after all changes to .cpp files)**  
 
-## Wiring Diagram for WiringPi Library & SX1262 MBED Shield  
-
-- NSS: GPIO 8, WPI# 10  
-- Reset: GPIO 5, WPI# 21  
-- DI01: GPIO 27, WPI# 2  
-- Busy: GPIO 17, WPI# 0  
-- Pwr: Pin 1 3.3V   
-- Gnd: Pick one   
-  
-Ensure your wiring matches the above configuration for proper operation with the RPI and MBED shield.  
 
 ## Wiring Diagram for WiringPi Library & SX1262 LORAWAN Pi Hat  
 
