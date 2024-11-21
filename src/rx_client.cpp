@@ -102,7 +102,7 @@ int main(int argc, char** argv) {
 
   // Main loop
   uint8_t buff[256] = { 0 };
-  for(;;) {
+  while(true) {
     if(receivedFlag) {
       // Reset flag
       receivedFlag = false;
@@ -123,6 +123,7 @@ int main(int argc, char** argv) {
         cout << "Message from server: " << buf << endl;
       }
     }
+    hal->delay(500);
   }
 
   return(0);
