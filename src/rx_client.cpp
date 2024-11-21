@@ -118,6 +118,9 @@ int main(int argc, char** argv) {
         printf("Data: %s\n", (char*)buff);
         send(sock, buff, strlen(gps_data), 0);
         cout << "GPS data successfully received and sent over TCP/IP" << endl;
+        char buf[1024] = {0};
+        read(sock, buf, 1024);
+        cout << "Message from server: " << buf << endl;
       }
     }
   }
