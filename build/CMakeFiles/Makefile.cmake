@@ -10,7 +10,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.25.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.25.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.25.1/CMakeSystem.cmake"
-  "/home/limccart/EE456/src/CMakeLists.txt"
+  "/home/limccart/EE456-limccart/src/CMakeLists.txt"
   "/usr/share/cmake-3.25/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.25/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake"
@@ -44,6 +44,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/lora_rx.dir/DependInfo.cmake"
+  "CMakeFiles/rx_client.dir/DependInfo.cmake"
   "CMakeFiles/lora_gps_tx.dir/DependInfo.cmake"
   "CMakeFiles/lora_tx.dir/DependInfo.cmake"
   "CMakeFiles/fsk_tx.dir/DependInfo.cmake"

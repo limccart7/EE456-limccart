@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/limccart/EE456/src
+CMAKE_SOURCE_DIR = /home/limccart/EE456-limccart/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/limccart/EE456/build
+CMAKE_BINARY_DIR = /home/limccart/EE456-limccart/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/lora_gps_tx.dir/depend.make
@@ -70,879 +70,879 @@ include CMakeFiles/lora_gps_tx.dir/progress.make
 include CMakeFiles/lora_gps_tx.dir/flags.make
 
 CMakeFiles/lora_gps_tx.dir/lora_gps_tx.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
-CMakeFiles/lora_gps_tx.dir/lora_gps_tx.cpp.o: /home/limccart/EE456/src/lora_gps_tx.cpp
+CMakeFiles/lora_gps_tx.dir/lora_gps_tx.cpp.o: /home/limccart/EE456-limccart/src/lora_gps_tx.cpp
 CMakeFiles/lora_gps_tx.dir/lora_gps_tx.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lora_gps_tx.dir/lora_gps_tx.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/lora_gps_tx.cpp.o -MF CMakeFiles/lora_gps_tx.dir/lora_gps_tx.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/lora_gps_tx.cpp.o -c /home/limccart/EE456/src/lora_gps_tx.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456-limccart/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lora_gps_tx.dir/lora_gps_tx.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/lora_gps_tx.cpp.o -MF CMakeFiles/lora_gps_tx.dir/lora_gps_tx.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/lora_gps_tx.cpp.o -c /home/limccart/EE456-limccart/src/lora_gps_tx.cpp
 
 CMakeFiles/lora_gps_tx.dir/lora_gps_tx.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/lora_gps_tx.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456/src/lora_gps_tx.cpp > CMakeFiles/lora_gps_tx.dir/lora_gps_tx.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456-limccart/src/lora_gps_tx.cpp > CMakeFiles/lora_gps_tx.dir/lora_gps_tx.cpp.i
 
 CMakeFiles/lora_gps_tx.dir/lora_gps_tx.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/lora_gps_tx.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456/src/lora_gps_tx.cpp -o CMakeFiles/lora_gps_tx.dir/lora_gps_tx.cpp.s
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/ArduinoHal.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/ArduinoHal.cpp.o: /home/limccart/EE456/RadioLib/src/ArduinoHal.cpp
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/ArduinoHal.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/ArduinoHal.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/ArduinoHal.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/ArduinoHal.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/ArduinoHal.cpp.o -c /home/limccart/EE456/RadioLib/src/ArduinoHal.cpp
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/ArduinoHal.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/ArduinoHal.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456/RadioLib/src/ArduinoHal.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/ArduinoHal.cpp.i
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/ArduinoHal.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/ArduinoHal.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456/RadioLib/src/ArduinoHal.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/ArduinoHal.cpp.s
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/Hal.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/Hal.cpp.o: /home/limccart/EE456/RadioLib/src/Hal.cpp
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/Hal.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/Hal.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/Hal.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/Hal.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/Hal.cpp.o -c /home/limccart/EE456/RadioLib/src/Hal.cpp
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/Hal.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/Hal.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456/RadioLib/src/Hal.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/Hal.cpp.i
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/Hal.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/Hal.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456/RadioLib/src/Hal.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/Hal.cpp.s
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/Module.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/Module.cpp.o: /home/limccart/EE456/RadioLib/src/Module.cpp
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/Module.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/Module.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/Module.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/Module.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/Module.cpp.o -c /home/limccart/EE456/RadioLib/src/Module.cpp
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/Module.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/Module.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456/RadioLib/src/Module.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/Module.cpp.i
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/Module.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/Module.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456/RadioLib/src/Module.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/Module.cpp.s
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/CC1101/CC1101.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/CC1101/CC1101.cpp.o: /home/limccart/EE456/RadioLib/src/modules/CC1101/CC1101.cpp
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/CC1101/CC1101.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/CC1101/CC1101.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/CC1101/CC1101.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/CC1101/CC1101.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/CC1101/CC1101.cpp.o -c /home/limccart/EE456/RadioLib/src/modules/CC1101/CC1101.cpp
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/CC1101/CC1101.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/CC1101/CC1101.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456/RadioLib/src/modules/CC1101/CC1101.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/CC1101/CC1101.cpp.i
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/CC1101/CC1101.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/CC1101/CC1101.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456/RadioLib/src/modules/CC1101/CC1101.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/CC1101/CC1101.cpp.s
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LLCC68/LLCC68.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LLCC68/LLCC68.cpp.o: /home/limccart/EE456/RadioLib/src/modules/LLCC68/LLCC68.cpp
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LLCC68/LLCC68.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LLCC68/LLCC68.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LLCC68/LLCC68.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LLCC68/LLCC68.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LLCC68/LLCC68.cpp.o -c /home/limccart/EE456/RadioLib/src/modules/LLCC68/LLCC68.cpp
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LLCC68/LLCC68.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LLCC68/LLCC68.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456/RadioLib/src/modules/LLCC68/LLCC68.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LLCC68/LLCC68.cpp.i
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LLCC68/LLCC68.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LLCC68/LLCC68.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456/RadioLib/src/modules/LLCC68/LLCC68.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LLCC68/LLCC68.cpp.s
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LR11x0/LR1110.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LR11x0/LR1110.cpp.o: /home/limccart/EE456/RadioLib/src/modules/LR11x0/LR1110.cpp
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LR11x0/LR1110.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LR11x0/LR1110.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LR11x0/LR1110.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LR11x0/LR1110.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LR11x0/LR1110.cpp.o -c /home/limccart/EE456/RadioLib/src/modules/LR11x0/LR1110.cpp
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LR11x0/LR1110.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LR11x0/LR1110.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456/RadioLib/src/modules/LR11x0/LR1110.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LR11x0/LR1110.cpp.i
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LR11x0/LR1110.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LR11x0/LR1110.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456/RadioLib/src/modules/LR11x0/LR1110.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LR11x0/LR1110.cpp.s
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LR11x0/LR1120.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LR11x0/LR1120.cpp.o: /home/limccart/EE456/RadioLib/src/modules/LR11x0/LR1120.cpp
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LR11x0/LR1120.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LR11x0/LR1120.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LR11x0/LR1120.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LR11x0/LR1120.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LR11x0/LR1120.cpp.o -c /home/limccart/EE456/RadioLib/src/modules/LR11x0/LR1120.cpp
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LR11x0/LR1120.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LR11x0/LR1120.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456/RadioLib/src/modules/LR11x0/LR1120.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LR11x0/LR1120.cpp.i
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LR11x0/LR1120.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LR11x0/LR1120.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456/RadioLib/src/modules/LR11x0/LR1120.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LR11x0/LR1120.cpp.s
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LR11x0/LR1121.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LR11x0/LR1121.cpp.o: /home/limccart/EE456/RadioLib/src/modules/LR11x0/LR1121.cpp
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LR11x0/LR1121.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LR11x0/LR1121.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LR11x0/LR1121.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LR11x0/LR1121.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LR11x0/LR1121.cpp.o -c /home/limccart/EE456/RadioLib/src/modules/LR11x0/LR1121.cpp
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LR11x0/LR1121.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LR11x0/LR1121.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456/RadioLib/src/modules/LR11x0/LR1121.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LR11x0/LR1121.cpp.i
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LR11x0/LR1121.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LR11x0/LR1121.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456/RadioLib/src/modules/LR11x0/LR1121.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LR11x0/LR1121.cpp.s
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LR11x0/LR11x0.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LR11x0/LR11x0.cpp.o: /home/limccart/EE456/RadioLib/src/modules/LR11x0/LR11x0.cpp
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LR11x0/LR11x0.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LR11x0/LR11x0.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LR11x0/LR11x0.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LR11x0/LR11x0.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LR11x0/LR11x0.cpp.o -c /home/limccart/EE456/RadioLib/src/modules/LR11x0/LR11x0.cpp
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LR11x0/LR11x0.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LR11x0/LR11x0.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456/RadioLib/src/modules/LR11x0/LR11x0.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LR11x0/LR11x0.cpp.i
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LR11x0/LR11x0.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LR11x0/LR11x0.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456/RadioLib/src/modules/LR11x0/LR11x0.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LR11x0/LR11x0.cpp.s
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/RF69/RF69.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/RF69/RF69.cpp.o: /home/limccart/EE456/RadioLib/src/modules/RF69/RF69.cpp
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/RF69/RF69.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/RF69/RF69.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/RF69/RF69.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/RF69/RF69.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/RF69/RF69.cpp.o -c /home/limccart/EE456/RadioLib/src/modules/RF69/RF69.cpp
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/RF69/RF69.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/RF69/RF69.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456/RadioLib/src/modules/RF69/RF69.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/RF69/RF69.cpp.i
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/RF69/RF69.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/RF69/RF69.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456/RadioLib/src/modules/RF69/RF69.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/RF69/RF69.cpp.s
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX123x/SX1231.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX123x/SX1231.cpp.o: /home/limccart/EE456/RadioLib/src/modules/SX123x/SX1231.cpp
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX123x/SX1231.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX123x/SX1231.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX123x/SX1231.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX123x/SX1231.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX123x/SX1231.cpp.o -c /home/limccart/EE456/RadioLib/src/modules/SX123x/SX1231.cpp
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX123x/SX1231.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX123x/SX1231.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456/RadioLib/src/modules/SX123x/SX1231.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX123x/SX1231.cpp.i
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX123x/SX1231.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX123x/SX1231.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456/RadioLib/src/modules/SX123x/SX1231.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX123x/SX1231.cpp.s
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX123x/SX1233.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX123x/SX1233.cpp.o: /home/limccart/EE456/RadioLib/src/modules/SX123x/SX1233.cpp
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX123x/SX1233.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX123x/SX1233.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX123x/SX1233.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX123x/SX1233.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX123x/SX1233.cpp.o -c /home/limccart/EE456/RadioLib/src/modules/SX123x/SX1233.cpp
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX123x/SX1233.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX123x/SX1233.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456/RadioLib/src/modules/SX123x/SX1233.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX123x/SX1233.cpp.i
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX123x/SX1233.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX123x/SX1233.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456/RadioLib/src/modules/SX123x/SX1233.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX123x/SX1233.cpp.s
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/STM32WLx.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/STM32WLx.cpp.o: /home/limccart/EE456/RadioLib/src/modules/SX126x/STM32WLx.cpp
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/STM32WLx.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/STM32WLx.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/STM32WLx.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/STM32WLx.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/STM32WLx.cpp.o -c /home/limccart/EE456/RadioLib/src/modules/SX126x/STM32WLx.cpp
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/STM32WLx.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/STM32WLx.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456/RadioLib/src/modules/SX126x/STM32WLx.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/STM32WLx.cpp.i
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/STM32WLx.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/STM32WLx.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456/RadioLib/src/modules/SX126x/STM32WLx.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/STM32WLx.cpp.s
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/STM32WLx_Module.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/STM32WLx_Module.cpp.o: /home/limccart/EE456/RadioLib/src/modules/SX126x/STM32WLx_Module.cpp
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/STM32WLx_Module.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/STM32WLx_Module.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/STM32WLx_Module.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/STM32WLx_Module.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/STM32WLx_Module.cpp.o -c /home/limccart/EE456/RadioLib/src/modules/SX126x/STM32WLx_Module.cpp
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/STM32WLx_Module.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/STM32WLx_Module.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456/RadioLib/src/modules/SX126x/STM32WLx_Module.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/STM32WLx_Module.cpp.i
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/STM32WLx_Module.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/STM32WLx_Module.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456/RadioLib/src/modules/SX126x/STM32WLx_Module.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/STM32WLx_Module.cpp.s
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/SX1261.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/SX1261.cpp.o: /home/limccart/EE456/RadioLib/src/modules/SX126x/SX1261.cpp
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/SX1261.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/SX1261.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/SX1261.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/SX1261.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/SX1261.cpp.o -c /home/limccart/EE456/RadioLib/src/modules/SX126x/SX1261.cpp
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/SX1261.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/SX1261.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456/RadioLib/src/modules/SX126x/SX1261.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/SX1261.cpp.i
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/SX1261.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/SX1261.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456/RadioLib/src/modules/SX126x/SX1261.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/SX1261.cpp.s
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/SX1262.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/SX1262.cpp.o: /home/limccart/EE456/RadioLib/src/modules/SX126x/SX1262.cpp
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/SX1262.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/SX1262.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/SX1262.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/SX1262.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/SX1262.cpp.o -c /home/limccart/EE456/RadioLib/src/modules/SX126x/SX1262.cpp
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/SX1262.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/SX1262.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456/RadioLib/src/modules/SX126x/SX1262.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/SX1262.cpp.i
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/SX1262.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/SX1262.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456/RadioLib/src/modules/SX126x/SX1262.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/SX1262.cpp.s
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/SX1268.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/SX1268.cpp.o: /home/limccart/EE456/RadioLib/src/modules/SX126x/SX1268.cpp
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/SX1268.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/SX1268.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/SX1268.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/SX1268.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/SX1268.cpp.o -c /home/limccart/EE456/RadioLib/src/modules/SX126x/SX1268.cpp
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/SX1268.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/SX1268.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456/RadioLib/src/modules/SX126x/SX1268.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/SX1268.cpp.i
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/SX1268.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/SX1268.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456/RadioLib/src/modules/SX126x/SX1268.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/SX1268.cpp.s
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/SX126x.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/SX126x.cpp.o: /home/limccart/EE456/RadioLib/src/modules/SX126x/SX126x.cpp
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/SX126x.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/SX126x.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/SX126x.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/SX126x.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/SX126x.cpp.o -c /home/limccart/EE456/RadioLib/src/modules/SX126x/SX126x.cpp
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/SX126x.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/SX126x.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456/RadioLib/src/modules/SX126x/SX126x.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/SX126x.cpp.i
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/SX126x.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/SX126x.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456/RadioLib/src/modules/SX126x/SX126x.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/SX126x.cpp.s
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1272.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1272.cpp.o: /home/limccart/EE456/RadioLib/src/modules/SX127x/SX1272.cpp
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1272.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1272.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1272.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1272.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1272.cpp.o -c /home/limccart/EE456/RadioLib/src/modules/SX127x/SX1272.cpp
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1272.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1272.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456/RadioLib/src/modules/SX127x/SX1272.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1272.cpp.i
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1272.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1272.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456/RadioLib/src/modules/SX127x/SX1272.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1272.cpp.s
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1273.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1273.cpp.o: /home/limccart/EE456/RadioLib/src/modules/SX127x/SX1273.cpp
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1273.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1273.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1273.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1273.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1273.cpp.o -c /home/limccart/EE456/RadioLib/src/modules/SX127x/SX1273.cpp
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1273.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1273.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456/RadioLib/src/modules/SX127x/SX1273.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1273.cpp.i
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1273.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1273.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456/RadioLib/src/modules/SX127x/SX1273.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1273.cpp.s
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1276.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1276.cpp.o: /home/limccart/EE456/RadioLib/src/modules/SX127x/SX1276.cpp
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1276.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1276.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1276.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1276.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1276.cpp.o -c /home/limccart/EE456/RadioLib/src/modules/SX127x/SX1276.cpp
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1276.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1276.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456/RadioLib/src/modules/SX127x/SX1276.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1276.cpp.i
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1276.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1276.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456/RadioLib/src/modules/SX127x/SX1276.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1276.cpp.s
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1277.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1277.cpp.o: /home/limccart/EE456/RadioLib/src/modules/SX127x/SX1277.cpp
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1277.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1277.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1277.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1277.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1277.cpp.o -c /home/limccart/EE456/RadioLib/src/modules/SX127x/SX1277.cpp
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1277.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1277.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456/RadioLib/src/modules/SX127x/SX1277.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1277.cpp.i
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1277.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1277.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456/RadioLib/src/modules/SX127x/SX1277.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1277.cpp.s
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1278.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1278.cpp.o: /home/limccart/EE456/RadioLib/src/modules/SX127x/SX1278.cpp
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1278.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1278.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1278.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1278.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1278.cpp.o -c /home/limccart/EE456/RadioLib/src/modules/SX127x/SX1278.cpp
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1278.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1278.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456/RadioLib/src/modules/SX127x/SX1278.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1278.cpp.i
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1278.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1278.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456/RadioLib/src/modules/SX127x/SX1278.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1278.cpp.s
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1279.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1279.cpp.o: /home/limccart/EE456/RadioLib/src/modules/SX127x/SX1279.cpp
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1279.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1279.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1279.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1279.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1279.cpp.o -c /home/limccart/EE456/RadioLib/src/modules/SX127x/SX1279.cpp
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1279.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1279.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456/RadioLib/src/modules/SX127x/SX1279.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1279.cpp.i
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1279.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1279.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456/RadioLib/src/modules/SX127x/SX1279.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1279.cpp.s
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX127x.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX127x.cpp.o: /home/limccart/EE456/RadioLib/src/modules/SX127x/SX127x.cpp
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX127x.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX127x.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX127x.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX127x.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX127x.cpp.o -c /home/limccart/EE456/RadioLib/src/modules/SX127x/SX127x.cpp
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX127x.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX127x.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456/RadioLib/src/modules/SX127x/SX127x.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX127x.cpp.i
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX127x.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX127x.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456/RadioLib/src/modules/SX127x/SX127x.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX127x.cpp.s
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX128x/SX1280.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX128x/SX1280.cpp.o: /home/limccart/EE456/RadioLib/src/modules/SX128x/SX1280.cpp
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX128x/SX1280.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX128x/SX1280.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX128x/SX1280.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX128x/SX1280.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX128x/SX1280.cpp.o -c /home/limccart/EE456/RadioLib/src/modules/SX128x/SX1280.cpp
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX128x/SX1280.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX128x/SX1280.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456/RadioLib/src/modules/SX128x/SX1280.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX128x/SX1280.cpp.i
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX128x/SX1280.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX128x/SX1280.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456/RadioLib/src/modules/SX128x/SX1280.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX128x/SX1280.cpp.s
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX128x/SX1281.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX128x/SX1281.cpp.o: /home/limccart/EE456/RadioLib/src/modules/SX128x/SX1281.cpp
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX128x/SX1281.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX128x/SX1281.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX128x/SX1281.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX128x/SX1281.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX128x/SX1281.cpp.o -c /home/limccart/EE456/RadioLib/src/modules/SX128x/SX1281.cpp
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX128x/SX1281.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX128x/SX1281.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456/RadioLib/src/modules/SX128x/SX1281.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX128x/SX1281.cpp.i
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX128x/SX1281.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX128x/SX1281.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456/RadioLib/src/modules/SX128x/SX1281.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX128x/SX1281.cpp.s
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX128x/SX1282.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX128x/SX1282.cpp.o: /home/limccart/EE456/RadioLib/src/modules/SX128x/SX1282.cpp
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX128x/SX1282.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX128x/SX1282.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX128x/SX1282.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX128x/SX1282.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX128x/SX1282.cpp.o -c /home/limccart/EE456/RadioLib/src/modules/SX128x/SX1282.cpp
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX128x/SX1282.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX128x/SX1282.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456/RadioLib/src/modules/SX128x/SX1282.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX128x/SX1282.cpp.i
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX128x/SX1282.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX128x/SX1282.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456/RadioLib/src/modules/SX128x/SX1282.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX128x/SX1282.cpp.s
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX128x/SX128x.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX128x/SX128x.cpp.o: /home/limccart/EE456/RadioLib/src/modules/SX128x/SX128x.cpp
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX128x/SX128x.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX128x/SX128x.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX128x/SX128x.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX128x/SX128x.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX128x/SX128x.cpp.o -c /home/limccart/EE456/RadioLib/src/modules/SX128x/SX128x.cpp
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX128x/SX128x.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX128x/SX128x.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456/RadioLib/src/modules/SX128x/SX128x.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX128x/SX128x.cpp.i
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX128x/SX128x.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX128x/SX128x.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456/RadioLib/src/modules/SX128x/SX128x.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX128x/SX128x.cpp.s
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/Si443x/Si4430.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/Si443x/Si4430.cpp.o: /home/limccart/EE456/RadioLib/src/modules/Si443x/Si4430.cpp
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/Si443x/Si4430.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/Si443x/Si4430.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/Si443x/Si4430.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/Si443x/Si4430.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/Si443x/Si4430.cpp.o -c /home/limccart/EE456/RadioLib/src/modules/Si443x/Si4430.cpp
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/Si443x/Si4430.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/Si443x/Si4430.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456/RadioLib/src/modules/Si443x/Si4430.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/Si443x/Si4430.cpp.i
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/Si443x/Si4430.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/Si443x/Si4430.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456/RadioLib/src/modules/Si443x/Si4430.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/Si443x/Si4430.cpp.s
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/Si443x/Si4431.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/Si443x/Si4431.cpp.o: /home/limccart/EE456/RadioLib/src/modules/Si443x/Si4431.cpp
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/Si443x/Si4431.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/Si443x/Si4431.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/Si443x/Si4431.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/Si443x/Si4431.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/Si443x/Si4431.cpp.o -c /home/limccart/EE456/RadioLib/src/modules/Si443x/Si4431.cpp
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/Si443x/Si4431.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/Si443x/Si4431.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456/RadioLib/src/modules/Si443x/Si4431.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/Si443x/Si4431.cpp.i
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/Si443x/Si4431.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/Si443x/Si4431.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456/RadioLib/src/modules/Si443x/Si4431.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/Si443x/Si4431.cpp.s
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/Si443x/Si4432.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/Si443x/Si4432.cpp.o: /home/limccart/EE456/RadioLib/src/modules/Si443x/Si4432.cpp
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/Si443x/Si4432.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/Si443x/Si4432.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/Si443x/Si4432.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/Si443x/Si4432.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/Si443x/Si4432.cpp.o -c /home/limccart/EE456/RadioLib/src/modules/Si443x/Si4432.cpp
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/Si443x/Si4432.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/Si443x/Si4432.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456/RadioLib/src/modules/Si443x/Si4432.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/Si443x/Si4432.cpp.i
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/Si443x/Si4432.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/Si443x/Si4432.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456/RadioLib/src/modules/Si443x/Si4432.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/Si443x/Si4432.cpp.s
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/Si443x/Si443x.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/Si443x/Si443x.cpp.o: /home/limccart/EE456/RadioLib/src/modules/Si443x/Si443x.cpp
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/Si443x/Si443x.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/Si443x/Si443x.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/Si443x/Si443x.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/Si443x/Si443x.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/Si443x/Si443x.cpp.o -c /home/limccart/EE456/RadioLib/src/modules/Si443x/Si443x.cpp
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/Si443x/Si443x.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/Si443x/Si443x.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456/RadioLib/src/modules/Si443x/Si443x.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/Si443x/Si443x.cpp.i
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/Si443x/Si443x.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/Si443x/Si443x.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456/RadioLib/src/modules/Si443x/Si443x.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/Si443x/Si443x.cpp.s
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/nRF24/nRF24.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/nRF24/nRF24.cpp.o: /home/limccart/EE456/RadioLib/src/modules/nRF24/nRF24.cpp
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/nRF24/nRF24.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/nRF24/nRF24.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/nRF24/nRF24.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/nRF24/nRF24.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/nRF24/nRF24.cpp.o -c /home/limccart/EE456/RadioLib/src/modules/nRF24/nRF24.cpp
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/nRF24/nRF24.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/nRF24/nRF24.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456/RadioLib/src/modules/nRF24/nRF24.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/nRF24/nRF24.cpp.i
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/nRF24/nRF24.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/nRF24/nRF24.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456/RadioLib/src/modules/nRF24/nRF24.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/nRF24/nRF24.cpp.s
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/AFSK/AFSK.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/AFSK/AFSK.cpp.o: /home/limccart/EE456/RadioLib/src/protocols/AFSK/AFSK.cpp
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/AFSK/AFSK.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/AFSK/AFSK.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/AFSK/AFSK.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/AFSK/AFSK.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/AFSK/AFSK.cpp.o -c /home/limccart/EE456/RadioLib/src/protocols/AFSK/AFSK.cpp
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/AFSK/AFSK.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/AFSK/AFSK.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456/RadioLib/src/protocols/AFSK/AFSK.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/AFSK/AFSK.cpp.i
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/AFSK/AFSK.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/AFSK/AFSK.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456/RadioLib/src/protocols/AFSK/AFSK.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/AFSK/AFSK.cpp.s
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/APRS/APRS.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/APRS/APRS.cpp.o: /home/limccart/EE456/RadioLib/src/protocols/APRS/APRS.cpp
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/APRS/APRS.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/APRS/APRS.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/APRS/APRS.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/APRS/APRS.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/APRS/APRS.cpp.o -c /home/limccart/EE456/RadioLib/src/protocols/APRS/APRS.cpp
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/APRS/APRS.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/APRS/APRS.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456/RadioLib/src/protocols/APRS/APRS.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/APRS/APRS.cpp.i
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/APRS/APRS.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/APRS/APRS.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456/RadioLib/src/protocols/APRS/APRS.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/APRS/APRS.cpp.s
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/AX25/AX25.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/AX25/AX25.cpp.o: /home/limccart/EE456/RadioLib/src/protocols/AX25/AX25.cpp
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/AX25/AX25.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/AX25/AX25.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/AX25/AX25.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/AX25/AX25.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/AX25/AX25.cpp.o -c /home/limccart/EE456/RadioLib/src/protocols/AX25/AX25.cpp
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/AX25/AX25.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/AX25/AX25.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456/RadioLib/src/protocols/AX25/AX25.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/AX25/AX25.cpp.i
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/AX25/AX25.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/AX25/AX25.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456/RadioLib/src/protocols/AX25/AX25.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/AX25/AX25.cpp.s
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/BellModem/BellModem.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/BellModem/BellModem.cpp.o: /home/limccart/EE456/RadioLib/src/protocols/BellModem/BellModem.cpp
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/BellModem/BellModem.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/BellModem/BellModem.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/BellModem/BellModem.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/BellModem/BellModem.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/BellModem/BellModem.cpp.o -c /home/limccart/EE456/RadioLib/src/protocols/BellModem/BellModem.cpp
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/BellModem/BellModem.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/BellModem/BellModem.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456/RadioLib/src/protocols/BellModem/BellModem.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/BellModem/BellModem.cpp.i
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/BellModem/BellModem.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/BellModem/BellModem.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456/RadioLib/src/protocols/BellModem/BellModem.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/BellModem/BellModem.cpp.s
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/ExternalRadio/ExternalRadio.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/ExternalRadio/ExternalRadio.cpp.o: /home/limccart/EE456/RadioLib/src/protocols/ExternalRadio/ExternalRadio.cpp
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/ExternalRadio/ExternalRadio.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/ExternalRadio/ExternalRadio.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/ExternalRadio/ExternalRadio.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/ExternalRadio/ExternalRadio.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/ExternalRadio/ExternalRadio.cpp.o -c /home/limccart/EE456/RadioLib/src/protocols/ExternalRadio/ExternalRadio.cpp
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/ExternalRadio/ExternalRadio.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/ExternalRadio/ExternalRadio.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456/RadioLib/src/protocols/ExternalRadio/ExternalRadio.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/ExternalRadio/ExternalRadio.cpp.i
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/ExternalRadio/ExternalRadio.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/ExternalRadio/ExternalRadio.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456/RadioLib/src/protocols/ExternalRadio/ExternalRadio.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/ExternalRadio/ExternalRadio.cpp.s
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/FSK4/FSK4.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/FSK4/FSK4.cpp.o: /home/limccart/EE456/RadioLib/src/protocols/FSK4/FSK4.cpp
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/FSK4/FSK4.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/FSK4/FSK4.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/FSK4/FSK4.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/FSK4/FSK4.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/FSK4/FSK4.cpp.o -c /home/limccart/EE456/RadioLib/src/protocols/FSK4/FSK4.cpp
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/FSK4/FSK4.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/FSK4/FSK4.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456/RadioLib/src/protocols/FSK4/FSK4.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/FSK4/FSK4.cpp.i
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/FSK4/FSK4.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/FSK4/FSK4.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456/RadioLib/src/protocols/FSK4/FSK4.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/FSK4/FSK4.cpp.s
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Hellschreiber/Hellschreiber.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Hellschreiber/Hellschreiber.cpp.o: /home/limccart/EE456/RadioLib/src/protocols/Hellschreiber/Hellschreiber.cpp
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Hellschreiber/Hellschreiber.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Hellschreiber/Hellschreiber.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Hellschreiber/Hellschreiber.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Hellschreiber/Hellschreiber.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Hellschreiber/Hellschreiber.cpp.o -c /home/limccart/EE456/RadioLib/src/protocols/Hellschreiber/Hellschreiber.cpp
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Hellschreiber/Hellschreiber.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Hellschreiber/Hellschreiber.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456/RadioLib/src/protocols/Hellschreiber/Hellschreiber.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Hellschreiber/Hellschreiber.cpp.i
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Hellschreiber/Hellschreiber.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Hellschreiber/Hellschreiber.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456/RadioLib/src/protocols/Hellschreiber/Hellschreiber.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Hellschreiber/Hellschreiber.cpp.s
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/LoRaWAN/LoRaWAN.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/LoRaWAN/LoRaWAN.cpp.o: /home/limccart/EE456/RadioLib/src/protocols/LoRaWAN/LoRaWAN.cpp
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/LoRaWAN/LoRaWAN.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/LoRaWAN/LoRaWAN.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/LoRaWAN/LoRaWAN.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/LoRaWAN/LoRaWAN.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/LoRaWAN/LoRaWAN.cpp.o -c /home/limccart/EE456/RadioLib/src/protocols/LoRaWAN/LoRaWAN.cpp
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/LoRaWAN/LoRaWAN.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/LoRaWAN/LoRaWAN.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456/RadioLib/src/protocols/LoRaWAN/LoRaWAN.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/LoRaWAN/LoRaWAN.cpp.i
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/LoRaWAN/LoRaWAN.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/LoRaWAN/LoRaWAN.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456/RadioLib/src/protocols/LoRaWAN/LoRaWAN.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/LoRaWAN/LoRaWAN.cpp.s
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/LoRaWAN/LoRaWANBands.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/LoRaWAN/LoRaWANBands.cpp.o: /home/limccart/EE456/RadioLib/src/protocols/LoRaWAN/LoRaWANBands.cpp
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/LoRaWAN/LoRaWANBands.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/LoRaWAN/LoRaWANBands.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/LoRaWAN/LoRaWANBands.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/LoRaWAN/LoRaWANBands.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/LoRaWAN/LoRaWANBands.cpp.o -c /home/limccart/EE456/RadioLib/src/protocols/LoRaWAN/LoRaWANBands.cpp
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/LoRaWAN/LoRaWANBands.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/LoRaWAN/LoRaWANBands.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456/RadioLib/src/protocols/LoRaWAN/LoRaWANBands.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/LoRaWAN/LoRaWANBands.cpp.i
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/LoRaWAN/LoRaWANBands.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/LoRaWAN/LoRaWANBands.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456/RadioLib/src/protocols/LoRaWAN/LoRaWANBands.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/LoRaWAN/LoRaWANBands.cpp.s
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Morse/Morse.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Morse/Morse.cpp.o: /home/limccart/EE456/RadioLib/src/protocols/Morse/Morse.cpp
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Morse/Morse.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Morse/Morse.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Morse/Morse.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Morse/Morse.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Morse/Morse.cpp.o -c /home/limccart/EE456/RadioLib/src/protocols/Morse/Morse.cpp
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Morse/Morse.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Morse/Morse.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456/RadioLib/src/protocols/Morse/Morse.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Morse/Morse.cpp.i
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Morse/Morse.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Morse/Morse.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456/RadioLib/src/protocols/Morse/Morse.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Morse/Morse.cpp.s
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Pager/Pager.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Pager/Pager.cpp.o: /home/limccart/EE456/RadioLib/src/protocols/Pager/Pager.cpp
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Pager/Pager.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Pager/Pager.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Pager/Pager.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Pager/Pager.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Pager/Pager.cpp.o -c /home/limccart/EE456/RadioLib/src/protocols/Pager/Pager.cpp
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Pager/Pager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Pager/Pager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456/RadioLib/src/protocols/Pager/Pager.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Pager/Pager.cpp.i
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Pager/Pager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Pager/Pager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456/RadioLib/src/protocols/Pager/Pager.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Pager/Pager.cpp.s
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/PhysicalLayer/PhysicalLayer.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/PhysicalLayer/PhysicalLayer.cpp.o: /home/limccart/EE456/RadioLib/src/protocols/PhysicalLayer/PhysicalLayer.cpp
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/PhysicalLayer/PhysicalLayer.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/PhysicalLayer/PhysicalLayer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/PhysicalLayer/PhysicalLayer.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/PhysicalLayer/PhysicalLayer.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/PhysicalLayer/PhysicalLayer.cpp.o -c /home/limccart/EE456/RadioLib/src/protocols/PhysicalLayer/PhysicalLayer.cpp
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/PhysicalLayer/PhysicalLayer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/PhysicalLayer/PhysicalLayer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456/RadioLib/src/protocols/PhysicalLayer/PhysicalLayer.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/PhysicalLayer/PhysicalLayer.cpp.i
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/PhysicalLayer/PhysicalLayer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/PhysicalLayer/PhysicalLayer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456/RadioLib/src/protocols/PhysicalLayer/PhysicalLayer.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/PhysicalLayer/PhysicalLayer.cpp.s
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Print/ITA2String.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Print/ITA2String.cpp.o: /home/limccart/EE456/RadioLib/src/protocols/Print/ITA2String.cpp
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Print/ITA2String.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Print/ITA2String.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Print/ITA2String.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Print/ITA2String.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Print/ITA2String.cpp.o -c /home/limccart/EE456/RadioLib/src/protocols/Print/ITA2String.cpp
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Print/ITA2String.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Print/ITA2String.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456/RadioLib/src/protocols/Print/ITA2String.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Print/ITA2String.cpp.i
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Print/ITA2String.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Print/ITA2String.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456/RadioLib/src/protocols/Print/ITA2String.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Print/ITA2String.cpp.s
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Print/Print.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Print/Print.cpp.o: /home/limccart/EE456/RadioLib/src/protocols/Print/Print.cpp
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Print/Print.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Print/Print.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Print/Print.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Print/Print.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Print/Print.cpp.o -c /home/limccart/EE456/RadioLib/src/protocols/Print/Print.cpp
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Print/Print.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Print/Print.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456/RadioLib/src/protocols/Print/Print.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Print/Print.cpp.i
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Print/Print.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Print/Print.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456/RadioLib/src/protocols/Print/Print.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Print/Print.cpp.s
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/RTTY/RTTY.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/RTTY/RTTY.cpp.o: /home/limccart/EE456/RadioLib/src/protocols/RTTY/RTTY.cpp
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/RTTY/RTTY.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/RTTY/RTTY.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/RTTY/RTTY.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/RTTY/RTTY.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/RTTY/RTTY.cpp.o -c /home/limccart/EE456/RadioLib/src/protocols/RTTY/RTTY.cpp
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/RTTY/RTTY.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/RTTY/RTTY.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456/RadioLib/src/protocols/RTTY/RTTY.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/RTTY/RTTY.cpp.i
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/RTTY/RTTY.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/RTTY/RTTY.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456/RadioLib/src/protocols/RTTY/RTTY.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/RTTY/RTTY.cpp.s
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/SSTV/SSTV.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/SSTV/SSTV.cpp.o: /home/limccart/EE456/RadioLib/src/protocols/SSTV/SSTV.cpp
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/SSTV/SSTV.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/SSTV/SSTV.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/SSTV/SSTV.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/SSTV/SSTV.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/SSTV/SSTV.cpp.o -c /home/limccart/EE456/RadioLib/src/protocols/SSTV/SSTV.cpp
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/SSTV/SSTV.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/SSTV/SSTV.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456/RadioLib/src/protocols/SSTV/SSTV.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/SSTV/SSTV.cpp.i
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/SSTV/SSTV.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/SSTV/SSTV.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456/RadioLib/src/protocols/SSTV/SSTV.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/SSTV/SSTV.cpp.s
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/utils/CRC.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/utils/CRC.cpp.o: /home/limccart/EE456/RadioLib/src/utils/CRC.cpp
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/utils/CRC.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/utils/CRC.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/utils/CRC.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/utils/CRC.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/utils/CRC.cpp.o -c /home/limccart/EE456/RadioLib/src/utils/CRC.cpp
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/utils/CRC.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/utils/CRC.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456/RadioLib/src/utils/CRC.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/utils/CRC.cpp.i
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/utils/CRC.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/utils/CRC.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456/RadioLib/src/utils/CRC.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/utils/CRC.cpp.s
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/utils/Cryptography.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/utils/Cryptography.cpp.o: /home/limccart/EE456/RadioLib/src/utils/Cryptography.cpp
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/utils/Cryptography.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/utils/Cryptography.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/utils/Cryptography.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/utils/Cryptography.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/utils/Cryptography.cpp.o -c /home/limccart/EE456/RadioLib/src/utils/Cryptography.cpp
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/utils/Cryptography.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/utils/Cryptography.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456/RadioLib/src/utils/Cryptography.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/utils/Cryptography.cpp.i
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/utils/Cryptography.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/utils/Cryptography.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456/RadioLib/src/utils/Cryptography.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/utils/Cryptography.cpp.s
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/utils/FEC.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/utils/FEC.cpp.o: /home/limccart/EE456/RadioLib/src/utils/FEC.cpp
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/utils/FEC.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/utils/FEC.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/utils/FEC.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/utils/FEC.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/utils/FEC.cpp.o -c /home/limccart/EE456/RadioLib/src/utils/FEC.cpp
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/utils/FEC.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/utils/FEC.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456/RadioLib/src/utils/FEC.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/utils/FEC.cpp.i
-
-CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/utils/FEC.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/utils/FEC.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456/RadioLib/src/utils/FEC.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/utils/FEC.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456-limccart/src/lora_gps_tx.cpp -o CMakeFiles/lora_gps_tx.dir/lora_gps_tx.cpp.s
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/ArduinoHal.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/ArduinoHal.cpp.o: /home/limccart/EE456-limccart/RadioLib/src/ArduinoHal.cpp
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/ArduinoHal.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456-limccart/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/ArduinoHal.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/ArduinoHal.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/ArduinoHal.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/ArduinoHal.cpp.o -c /home/limccart/EE456-limccart/RadioLib/src/ArduinoHal.cpp
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/ArduinoHal.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/ArduinoHal.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456-limccart/RadioLib/src/ArduinoHal.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/ArduinoHal.cpp.i
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/ArduinoHal.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/ArduinoHal.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456-limccart/RadioLib/src/ArduinoHal.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/ArduinoHal.cpp.s
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/Hal.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/Hal.cpp.o: /home/limccart/EE456-limccart/RadioLib/src/Hal.cpp
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/Hal.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456-limccart/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/Hal.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/Hal.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/Hal.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/Hal.cpp.o -c /home/limccart/EE456-limccart/RadioLib/src/Hal.cpp
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/Hal.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/Hal.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456-limccart/RadioLib/src/Hal.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/Hal.cpp.i
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/Hal.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/Hal.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456-limccart/RadioLib/src/Hal.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/Hal.cpp.s
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/Module.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/Module.cpp.o: /home/limccart/EE456-limccart/RadioLib/src/Module.cpp
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/Module.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456-limccart/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/Module.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/Module.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/Module.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/Module.cpp.o -c /home/limccart/EE456-limccart/RadioLib/src/Module.cpp
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/Module.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/Module.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456-limccart/RadioLib/src/Module.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/Module.cpp.i
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/Module.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/Module.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456-limccart/RadioLib/src/Module.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/Module.cpp.s
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/CC1101/CC1101.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/CC1101/CC1101.cpp.o: /home/limccart/EE456-limccart/RadioLib/src/modules/CC1101/CC1101.cpp
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/CC1101/CC1101.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456-limccart/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/CC1101/CC1101.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/CC1101/CC1101.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/CC1101/CC1101.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/CC1101/CC1101.cpp.o -c /home/limccart/EE456-limccart/RadioLib/src/modules/CC1101/CC1101.cpp
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/CC1101/CC1101.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/CC1101/CC1101.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456-limccart/RadioLib/src/modules/CC1101/CC1101.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/CC1101/CC1101.cpp.i
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/CC1101/CC1101.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/CC1101/CC1101.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456-limccart/RadioLib/src/modules/CC1101/CC1101.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/CC1101/CC1101.cpp.s
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LLCC68/LLCC68.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LLCC68/LLCC68.cpp.o: /home/limccart/EE456-limccart/RadioLib/src/modules/LLCC68/LLCC68.cpp
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LLCC68/LLCC68.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456-limccart/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LLCC68/LLCC68.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LLCC68/LLCC68.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LLCC68/LLCC68.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LLCC68/LLCC68.cpp.o -c /home/limccart/EE456-limccart/RadioLib/src/modules/LLCC68/LLCC68.cpp
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LLCC68/LLCC68.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LLCC68/LLCC68.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456-limccart/RadioLib/src/modules/LLCC68/LLCC68.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LLCC68/LLCC68.cpp.i
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LLCC68/LLCC68.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LLCC68/LLCC68.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456-limccart/RadioLib/src/modules/LLCC68/LLCC68.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LLCC68/LLCC68.cpp.s
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR1110.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR1110.cpp.o: /home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR1110.cpp
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR1110.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456-limccart/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR1110.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR1110.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR1110.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR1110.cpp.o -c /home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR1110.cpp
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR1110.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR1110.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR1110.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR1110.cpp.i
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR1110.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR1110.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR1110.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR1110.cpp.s
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR1120.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR1120.cpp.o: /home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR1120.cpp
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR1120.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456-limccart/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR1120.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR1120.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR1120.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR1120.cpp.o -c /home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR1120.cpp
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR1120.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR1120.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR1120.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR1120.cpp.i
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR1120.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR1120.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR1120.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR1120.cpp.s
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR1121.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR1121.cpp.o: /home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR1121.cpp
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR1121.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456-limccart/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR1121.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR1121.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR1121.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR1121.cpp.o -c /home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR1121.cpp
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR1121.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR1121.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR1121.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR1121.cpp.i
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR1121.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR1121.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR1121.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR1121.cpp.s
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR11x0.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR11x0.cpp.o: /home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR11x0.cpp
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR11x0.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456-limccart/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR11x0.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR11x0.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR11x0.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR11x0.cpp.o -c /home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR11x0.cpp
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR11x0.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR11x0.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR11x0.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR11x0.cpp.i
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR11x0.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR11x0.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR11x0.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR11x0.cpp.s
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/RF69/RF69.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/RF69/RF69.cpp.o: /home/limccart/EE456-limccart/RadioLib/src/modules/RF69/RF69.cpp
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/RF69/RF69.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456-limccart/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/RF69/RF69.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/RF69/RF69.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/RF69/RF69.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/RF69/RF69.cpp.o -c /home/limccart/EE456-limccart/RadioLib/src/modules/RF69/RF69.cpp
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/RF69/RF69.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/RF69/RF69.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456-limccart/RadioLib/src/modules/RF69/RF69.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/RF69/RF69.cpp.i
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/RF69/RF69.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/RF69/RF69.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456-limccart/RadioLib/src/modules/RF69/RF69.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/RF69/RF69.cpp.s
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX123x/SX1231.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX123x/SX1231.cpp.o: /home/limccart/EE456-limccart/RadioLib/src/modules/SX123x/SX1231.cpp
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX123x/SX1231.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456-limccart/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX123x/SX1231.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX123x/SX1231.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX123x/SX1231.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX123x/SX1231.cpp.o -c /home/limccart/EE456-limccart/RadioLib/src/modules/SX123x/SX1231.cpp
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX123x/SX1231.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX123x/SX1231.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456-limccart/RadioLib/src/modules/SX123x/SX1231.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX123x/SX1231.cpp.i
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX123x/SX1231.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX123x/SX1231.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456-limccart/RadioLib/src/modules/SX123x/SX1231.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX123x/SX1231.cpp.s
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX123x/SX1233.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX123x/SX1233.cpp.o: /home/limccart/EE456-limccart/RadioLib/src/modules/SX123x/SX1233.cpp
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX123x/SX1233.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456-limccart/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX123x/SX1233.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX123x/SX1233.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX123x/SX1233.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX123x/SX1233.cpp.o -c /home/limccart/EE456-limccart/RadioLib/src/modules/SX123x/SX1233.cpp
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX123x/SX1233.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX123x/SX1233.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456-limccart/RadioLib/src/modules/SX123x/SX1233.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX123x/SX1233.cpp.i
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX123x/SX1233.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX123x/SX1233.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456-limccart/RadioLib/src/modules/SX123x/SX1233.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX123x/SX1233.cpp.s
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/STM32WLx.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/STM32WLx.cpp.o: /home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/STM32WLx.cpp
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/STM32WLx.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456-limccart/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/STM32WLx.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/STM32WLx.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/STM32WLx.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/STM32WLx.cpp.o -c /home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/STM32WLx.cpp
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/STM32WLx.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/STM32WLx.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/STM32WLx.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/STM32WLx.cpp.i
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/STM32WLx.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/STM32WLx.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/STM32WLx.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/STM32WLx.cpp.s
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/STM32WLx_Module.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/STM32WLx_Module.cpp.o: /home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/STM32WLx_Module.cpp
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/STM32WLx_Module.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456-limccart/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/STM32WLx_Module.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/STM32WLx_Module.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/STM32WLx_Module.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/STM32WLx_Module.cpp.o -c /home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/STM32WLx_Module.cpp
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/STM32WLx_Module.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/STM32WLx_Module.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/STM32WLx_Module.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/STM32WLx_Module.cpp.i
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/STM32WLx_Module.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/STM32WLx_Module.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/STM32WLx_Module.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/STM32WLx_Module.cpp.s
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX1261.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX1261.cpp.o: /home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX1261.cpp
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX1261.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456-limccart/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX1261.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX1261.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX1261.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX1261.cpp.o -c /home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX1261.cpp
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX1261.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX1261.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX1261.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX1261.cpp.i
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX1261.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX1261.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX1261.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX1261.cpp.s
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX1262.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX1262.cpp.o: /home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX1262.cpp
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX1262.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456-limccart/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX1262.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX1262.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX1262.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX1262.cpp.o -c /home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX1262.cpp
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX1262.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX1262.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX1262.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX1262.cpp.i
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX1262.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX1262.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX1262.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX1262.cpp.s
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX1268.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX1268.cpp.o: /home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX1268.cpp
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX1268.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456-limccart/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX1268.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX1268.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX1268.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX1268.cpp.o -c /home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX1268.cpp
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX1268.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX1268.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX1268.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX1268.cpp.i
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX1268.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX1268.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX1268.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX1268.cpp.s
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX126x.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX126x.cpp.o: /home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX126x.cpp
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX126x.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456-limccart/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX126x.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX126x.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX126x.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX126x.cpp.o -c /home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX126x.cpp
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX126x.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX126x.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX126x.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX126x.cpp.i
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX126x.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX126x.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX126x.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX126x.cpp.s
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1272.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1272.cpp.o: /home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1272.cpp
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1272.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456-limccart/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1272.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1272.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1272.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1272.cpp.o -c /home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1272.cpp
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1272.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1272.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1272.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1272.cpp.i
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1272.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1272.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1272.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1272.cpp.s
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1273.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1273.cpp.o: /home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1273.cpp
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1273.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456-limccart/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1273.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1273.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1273.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1273.cpp.o -c /home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1273.cpp
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1273.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1273.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1273.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1273.cpp.i
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1273.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1273.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1273.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1273.cpp.s
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1276.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1276.cpp.o: /home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1276.cpp
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1276.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456-limccart/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1276.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1276.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1276.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1276.cpp.o -c /home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1276.cpp
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1276.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1276.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1276.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1276.cpp.i
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1276.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1276.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1276.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1276.cpp.s
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1277.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1277.cpp.o: /home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1277.cpp
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1277.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456-limccart/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1277.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1277.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1277.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1277.cpp.o -c /home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1277.cpp
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1277.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1277.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1277.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1277.cpp.i
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1277.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1277.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1277.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1277.cpp.s
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1278.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1278.cpp.o: /home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1278.cpp
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1278.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456-limccart/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1278.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1278.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1278.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1278.cpp.o -c /home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1278.cpp
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1278.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1278.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1278.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1278.cpp.i
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1278.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1278.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1278.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1278.cpp.s
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1279.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1279.cpp.o: /home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1279.cpp
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1279.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456-limccart/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1279.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1279.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1279.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1279.cpp.o -c /home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1279.cpp
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1279.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1279.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1279.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1279.cpp.i
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1279.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1279.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1279.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1279.cpp.s
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX127x.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX127x.cpp.o: /home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX127x.cpp
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX127x.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456-limccart/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX127x.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX127x.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX127x.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX127x.cpp.o -c /home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX127x.cpp
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX127x.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX127x.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX127x.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX127x.cpp.i
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX127x.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX127x.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX127x.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX127x.cpp.s
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX1280.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX1280.cpp.o: /home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX1280.cpp
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX1280.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456-limccart/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX1280.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX1280.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX1280.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX1280.cpp.o -c /home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX1280.cpp
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX1280.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX1280.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX1280.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX1280.cpp.i
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX1280.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX1280.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX1280.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX1280.cpp.s
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX1281.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX1281.cpp.o: /home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX1281.cpp
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX1281.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456-limccart/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX1281.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX1281.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX1281.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX1281.cpp.o -c /home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX1281.cpp
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX1281.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX1281.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX1281.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX1281.cpp.i
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX1281.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX1281.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX1281.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX1281.cpp.s
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX1282.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX1282.cpp.o: /home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX1282.cpp
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX1282.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456-limccart/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX1282.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX1282.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX1282.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX1282.cpp.o -c /home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX1282.cpp
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX1282.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX1282.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX1282.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX1282.cpp.i
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX1282.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX1282.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX1282.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX1282.cpp.s
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX128x.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX128x.cpp.o: /home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX128x.cpp
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX128x.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456-limccart/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX128x.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX128x.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX128x.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX128x.cpp.o -c /home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX128x.cpp
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX128x.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX128x.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX128x.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX128x.cpp.i
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX128x.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX128x.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX128x.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX128x.cpp.s
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si4430.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si4430.cpp.o: /home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si4430.cpp
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si4430.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456-limccart/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si4430.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si4430.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si4430.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si4430.cpp.o -c /home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si4430.cpp
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si4430.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si4430.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si4430.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si4430.cpp.i
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si4430.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si4430.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si4430.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si4430.cpp.s
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si4431.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si4431.cpp.o: /home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si4431.cpp
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si4431.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456-limccart/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si4431.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si4431.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si4431.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si4431.cpp.o -c /home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si4431.cpp
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si4431.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si4431.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si4431.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si4431.cpp.i
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si4431.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si4431.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si4431.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si4431.cpp.s
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si4432.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si4432.cpp.o: /home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si4432.cpp
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si4432.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456-limccart/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si4432.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si4432.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si4432.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si4432.cpp.o -c /home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si4432.cpp
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si4432.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si4432.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si4432.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si4432.cpp.i
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si4432.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si4432.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si4432.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si4432.cpp.s
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si443x.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si443x.cpp.o: /home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si443x.cpp
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si443x.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456-limccart/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si443x.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si443x.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si443x.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si443x.cpp.o -c /home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si443x.cpp
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si443x.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si443x.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si443x.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si443x.cpp.i
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si443x.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si443x.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si443x.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si443x.cpp.s
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/nRF24/nRF24.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/nRF24/nRF24.cpp.o: /home/limccart/EE456-limccart/RadioLib/src/modules/nRF24/nRF24.cpp
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/nRF24/nRF24.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456-limccart/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/nRF24/nRF24.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/nRF24/nRF24.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/nRF24/nRF24.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/nRF24/nRF24.cpp.o -c /home/limccart/EE456-limccart/RadioLib/src/modules/nRF24/nRF24.cpp
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/nRF24/nRF24.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/nRF24/nRF24.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456-limccart/RadioLib/src/modules/nRF24/nRF24.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/nRF24/nRF24.cpp.i
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/nRF24/nRF24.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/nRF24/nRF24.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456-limccart/RadioLib/src/modules/nRF24/nRF24.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/nRF24/nRF24.cpp.s
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/AFSK/AFSK.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/AFSK/AFSK.cpp.o: /home/limccart/EE456-limccart/RadioLib/src/protocols/AFSK/AFSK.cpp
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/AFSK/AFSK.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456-limccart/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/AFSK/AFSK.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/AFSK/AFSK.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/AFSK/AFSK.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/AFSK/AFSK.cpp.o -c /home/limccart/EE456-limccart/RadioLib/src/protocols/AFSK/AFSK.cpp
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/AFSK/AFSK.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/AFSK/AFSK.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456-limccart/RadioLib/src/protocols/AFSK/AFSK.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/AFSK/AFSK.cpp.i
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/AFSK/AFSK.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/AFSK/AFSK.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456-limccart/RadioLib/src/protocols/AFSK/AFSK.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/AFSK/AFSK.cpp.s
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/APRS/APRS.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/APRS/APRS.cpp.o: /home/limccart/EE456-limccart/RadioLib/src/protocols/APRS/APRS.cpp
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/APRS/APRS.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456-limccart/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/APRS/APRS.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/APRS/APRS.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/APRS/APRS.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/APRS/APRS.cpp.o -c /home/limccart/EE456-limccart/RadioLib/src/protocols/APRS/APRS.cpp
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/APRS/APRS.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/APRS/APRS.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456-limccart/RadioLib/src/protocols/APRS/APRS.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/APRS/APRS.cpp.i
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/APRS/APRS.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/APRS/APRS.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456-limccart/RadioLib/src/protocols/APRS/APRS.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/APRS/APRS.cpp.s
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/AX25/AX25.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/AX25/AX25.cpp.o: /home/limccart/EE456-limccart/RadioLib/src/protocols/AX25/AX25.cpp
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/AX25/AX25.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456-limccart/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/AX25/AX25.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/AX25/AX25.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/AX25/AX25.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/AX25/AX25.cpp.o -c /home/limccart/EE456-limccart/RadioLib/src/protocols/AX25/AX25.cpp
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/AX25/AX25.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/AX25/AX25.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456-limccart/RadioLib/src/protocols/AX25/AX25.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/AX25/AX25.cpp.i
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/AX25/AX25.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/AX25/AX25.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456-limccart/RadioLib/src/protocols/AX25/AX25.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/AX25/AX25.cpp.s
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/BellModem/BellModem.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/BellModem/BellModem.cpp.o: /home/limccart/EE456-limccart/RadioLib/src/protocols/BellModem/BellModem.cpp
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/BellModem/BellModem.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456-limccart/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/BellModem/BellModem.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/BellModem/BellModem.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/BellModem/BellModem.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/BellModem/BellModem.cpp.o -c /home/limccart/EE456-limccart/RadioLib/src/protocols/BellModem/BellModem.cpp
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/BellModem/BellModem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/BellModem/BellModem.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456-limccart/RadioLib/src/protocols/BellModem/BellModem.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/BellModem/BellModem.cpp.i
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/BellModem/BellModem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/BellModem/BellModem.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456-limccart/RadioLib/src/protocols/BellModem/BellModem.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/BellModem/BellModem.cpp.s
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/ExternalRadio/ExternalRadio.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/ExternalRadio/ExternalRadio.cpp.o: /home/limccart/EE456-limccart/RadioLib/src/protocols/ExternalRadio/ExternalRadio.cpp
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/ExternalRadio/ExternalRadio.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456-limccart/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/ExternalRadio/ExternalRadio.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/ExternalRadio/ExternalRadio.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/ExternalRadio/ExternalRadio.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/ExternalRadio/ExternalRadio.cpp.o -c /home/limccart/EE456-limccart/RadioLib/src/protocols/ExternalRadio/ExternalRadio.cpp
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/ExternalRadio/ExternalRadio.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/ExternalRadio/ExternalRadio.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456-limccart/RadioLib/src/protocols/ExternalRadio/ExternalRadio.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/ExternalRadio/ExternalRadio.cpp.i
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/ExternalRadio/ExternalRadio.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/ExternalRadio/ExternalRadio.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456-limccart/RadioLib/src/protocols/ExternalRadio/ExternalRadio.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/ExternalRadio/ExternalRadio.cpp.s
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/FSK4/FSK4.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/FSK4/FSK4.cpp.o: /home/limccart/EE456-limccart/RadioLib/src/protocols/FSK4/FSK4.cpp
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/FSK4/FSK4.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456-limccart/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/FSK4/FSK4.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/FSK4/FSK4.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/FSK4/FSK4.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/FSK4/FSK4.cpp.o -c /home/limccart/EE456-limccart/RadioLib/src/protocols/FSK4/FSK4.cpp
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/FSK4/FSK4.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/FSK4/FSK4.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456-limccart/RadioLib/src/protocols/FSK4/FSK4.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/FSK4/FSK4.cpp.i
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/FSK4/FSK4.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/FSK4/FSK4.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456-limccart/RadioLib/src/protocols/FSK4/FSK4.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/FSK4/FSK4.cpp.s
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Hellschreiber/Hellschreiber.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Hellschreiber/Hellschreiber.cpp.o: /home/limccart/EE456-limccart/RadioLib/src/protocols/Hellschreiber/Hellschreiber.cpp
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Hellschreiber/Hellschreiber.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456-limccart/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Hellschreiber/Hellschreiber.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Hellschreiber/Hellschreiber.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Hellschreiber/Hellschreiber.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Hellschreiber/Hellschreiber.cpp.o -c /home/limccart/EE456-limccart/RadioLib/src/protocols/Hellschreiber/Hellschreiber.cpp
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Hellschreiber/Hellschreiber.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Hellschreiber/Hellschreiber.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456-limccart/RadioLib/src/protocols/Hellschreiber/Hellschreiber.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Hellschreiber/Hellschreiber.cpp.i
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Hellschreiber/Hellschreiber.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Hellschreiber/Hellschreiber.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456-limccart/RadioLib/src/protocols/Hellschreiber/Hellschreiber.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Hellschreiber/Hellschreiber.cpp.s
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/LoRaWAN/LoRaWAN.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/LoRaWAN/LoRaWAN.cpp.o: /home/limccart/EE456-limccart/RadioLib/src/protocols/LoRaWAN/LoRaWAN.cpp
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/LoRaWAN/LoRaWAN.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456-limccart/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/LoRaWAN/LoRaWAN.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/LoRaWAN/LoRaWAN.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/LoRaWAN/LoRaWAN.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/LoRaWAN/LoRaWAN.cpp.o -c /home/limccart/EE456-limccart/RadioLib/src/protocols/LoRaWAN/LoRaWAN.cpp
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/LoRaWAN/LoRaWAN.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/LoRaWAN/LoRaWAN.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456-limccart/RadioLib/src/protocols/LoRaWAN/LoRaWAN.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/LoRaWAN/LoRaWAN.cpp.i
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/LoRaWAN/LoRaWAN.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/LoRaWAN/LoRaWAN.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456-limccart/RadioLib/src/protocols/LoRaWAN/LoRaWAN.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/LoRaWAN/LoRaWAN.cpp.s
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/LoRaWAN/LoRaWANBands.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/LoRaWAN/LoRaWANBands.cpp.o: /home/limccart/EE456-limccart/RadioLib/src/protocols/LoRaWAN/LoRaWANBands.cpp
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/LoRaWAN/LoRaWANBands.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456-limccart/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/LoRaWAN/LoRaWANBands.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/LoRaWAN/LoRaWANBands.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/LoRaWAN/LoRaWANBands.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/LoRaWAN/LoRaWANBands.cpp.o -c /home/limccart/EE456-limccart/RadioLib/src/protocols/LoRaWAN/LoRaWANBands.cpp
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/LoRaWAN/LoRaWANBands.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/LoRaWAN/LoRaWANBands.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456-limccart/RadioLib/src/protocols/LoRaWAN/LoRaWANBands.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/LoRaWAN/LoRaWANBands.cpp.i
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/LoRaWAN/LoRaWANBands.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/LoRaWAN/LoRaWANBands.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456-limccart/RadioLib/src/protocols/LoRaWAN/LoRaWANBands.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/LoRaWAN/LoRaWANBands.cpp.s
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Morse/Morse.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Morse/Morse.cpp.o: /home/limccart/EE456-limccart/RadioLib/src/protocols/Morse/Morse.cpp
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Morse/Morse.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456-limccart/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Morse/Morse.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Morse/Morse.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Morse/Morse.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Morse/Morse.cpp.o -c /home/limccart/EE456-limccart/RadioLib/src/protocols/Morse/Morse.cpp
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Morse/Morse.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Morse/Morse.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456-limccart/RadioLib/src/protocols/Morse/Morse.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Morse/Morse.cpp.i
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Morse/Morse.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Morse/Morse.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456-limccart/RadioLib/src/protocols/Morse/Morse.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Morse/Morse.cpp.s
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Pager/Pager.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Pager/Pager.cpp.o: /home/limccart/EE456-limccart/RadioLib/src/protocols/Pager/Pager.cpp
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Pager/Pager.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456-limccart/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Pager/Pager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Pager/Pager.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Pager/Pager.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Pager/Pager.cpp.o -c /home/limccart/EE456-limccart/RadioLib/src/protocols/Pager/Pager.cpp
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Pager/Pager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Pager/Pager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456-limccart/RadioLib/src/protocols/Pager/Pager.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Pager/Pager.cpp.i
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Pager/Pager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Pager/Pager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456-limccart/RadioLib/src/protocols/Pager/Pager.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Pager/Pager.cpp.s
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/PhysicalLayer/PhysicalLayer.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/PhysicalLayer/PhysicalLayer.cpp.o: /home/limccart/EE456-limccart/RadioLib/src/protocols/PhysicalLayer/PhysicalLayer.cpp
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/PhysicalLayer/PhysicalLayer.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456-limccart/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/PhysicalLayer/PhysicalLayer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/PhysicalLayer/PhysicalLayer.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/PhysicalLayer/PhysicalLayer.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/PhysicalLayer/PhysicalLayer.cpp.o -c /home/limccart/EE456-limccart/RadioLib/src/protocols/PhysicalLayer/PhysicalLayer.cpp
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/PhysicalLayer/PhysicalLayer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/PhysicalLayer/PhysicalLayer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456-limccart/RadioLib/src/protocols/PhysicalLayer/PhysicalLayer.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/PhysicalLayer/PhysicalLayer.cpp.i
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/PhysicalLayer/PhysicalLayer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/PhysicalLayer/PhysicalLayer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456-limccart/RadioLib/src/protocols/PhysicalLayer/PhysicalLayer.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/PhysicalLayer/PhysicalLayer.cpp.s
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Print/ITA2String.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Print/ITA2String.cpp.o: /home/limccart/EE456-limccart/RadioLib/src/protocols/Print/ITA2String.cpp
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Print/ITA2String.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456-limccart/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Print/ITA2String.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Print/ITA2String.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Print/ITA2String.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Print/ITA2String.cpp.o -c /home/limccart/EE456-limccart/RadioLib/src/protocols/Print/ITA2String.cpp
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Print/ITA2String.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Print/ITA2String.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456-limccart/RadioLib/src/protocols/Print/ITA2String.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Print/ITA2String.cpp.i
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Print/ITA2String.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Print/ITA2String.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456-limccart/RadioLib/src/protocols/Print/ITA2String.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Print/ITA2String.cpp.s
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Print/Print.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Print/Print.cpp.o: /home/limccart/EE456-limccart/RadioLib/src/protocols/Print/Print.cpp
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Print/Print.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456-limccart/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Print/Print.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Print/Print.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Print/Print.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Print/Print.cpp.o -c /home/limccart/EE456-limccart/RadioLib/src/protocols/Print/Print.cpp
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Print/Print.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Print/Print.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456-limccart/RadioLib/src/protocols/Print/Print.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Print/Print.cpp.i
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Print/Print.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Print/Print.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456-limccart/RadioLib/src/protocols/Print/Print.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Print/Print.cpp.s
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/RTTY/RTTY.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/RTTY/RTTY.cpp.o: /home/limccart/EE456-limccart/RadioLib/src/protocols/RTTY/RTTY.cpp
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/RTTY/RTTY.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456-limccart/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/RTTY/RTTY.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/RTTY/RTTY.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/RTTY/RTTY.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/RTTY/RTTY.cpp.o -c /home/limccart/EE456-limccart/RadioLib/src/protocols/RTTY/RTTY.cpp
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/RTTY/RTTY.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/RTTY/RTTY.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456-limccart/RadioLib/src/protocols/RTTY/RTTY.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/RTTY/RTTY.cpp.i
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/RTTY/RTTY.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/RTTY/RTTY.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456-limccart/RadioLib/src/protocols/RTTY/RTTY.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/RTTY/RTTY.cpp.s
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/SSTV/SSTV.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/SSTV/SSTV.cpp.o: /home/limccart/EE456-limccart/RadioLib/src/protocols/SSTV/SSTV.cpp
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/SSTV/SSTV.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456-limccart/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/SSTV/SSTV.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/SSTV/SSTV.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/SSTV/SSTV.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/SSTV/SSTV.cpp.o -c /home/limccart/EE456-limccart/RadioLib/src/protocols/SSTV/SSTV.cpp
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/SSTV/SSTV.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/SSTV/SSTV.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456-limccart/RadioLib/src/protocols/SSTV/SSTV.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/SSTV/SSTV.cpp.i
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/SSTV/SSTV.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/SSTV/SSTV.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456-limccart/RadioLib/src/protocols/SSTV/SSTV.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/SSTV/SSTV.cpp.s
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/utils/CRC.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/utils/CRC.cpp.o: /home/limccart/EE456-limccart/RadioLib/src/utils/CRC.cpp
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/utils/CRC.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456-limccart/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/utils/CRC.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/utils/CRC.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/utils/CRC.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/utils/CRC.cpp.o -c /home/limccart/EE456-limccart/RadioLib/src/utils/CRC.cpp
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/utils/CRC.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/utils/CRC.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456-limccart/RadioLib/src/utils/CRC.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/utils/CRC.cpp.i
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/utils/CRC.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/utils/CRC.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456-limccart/RadioLib/src/utils/CRC.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/utils/CRC.cpp.s
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/utils/Cryptography.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/utils/Cryptography.cpp.o: /home/limccart/EE456-limccart/RadioLib/src/utils/Cryptography.cpp
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/utils/Cryptography.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456-limccart/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/utils/Cryptography.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/utils/Cryptography.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/utils/Cryptography.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/utils/Cryptography.cpp.o -c /home/limccart/EE456-limccart/RadioLib/src/utils/Cryptography.cpp
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/utils/Cryptography.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/utils/Cryptography.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456-limccart/RadioLib/src/utils/Cryptography.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/utils/Cryptography.cpp.i
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/utils/Cryptography.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/utils/Cryptography.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456-limccart/RadioLib/src/utils/Cryptography.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/utils/Cryptography.cpp.s
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/utils/FEC.cpp.o: CMakeFiles/lora_gps_tx.dir/flags.make
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/utils/FEC.cpp.o: /home/limccart/EE456-limccart/RadioLib/src/utils/FEC.cpp
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/utils/FEC.cpp.o: CMakeFiles/lora_gps_tx.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/limccart/EE456-limccart/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/utils/FEC.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/utils/FEC.cpp.o -MF CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/utils/FEC.cpp.o.d -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/utils/FEC.cpp.o -c /home/limccart/EE456-limccart/RadioLib/src/utils/FEC.cpp
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/utils/FEC.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/utils/FEC.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/limccart/EE456-limccart/RadioLib/src/utils/FEC.cpp > CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/utils/FEC.cpp.i
+
+CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/utils/FEC.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/utils/FEC.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/limccart/EE456-limccart/RadioLib/src/utils/FEC.cpp -o CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/utils/FEC.cpp.s
 
 # Object files for target lora_gps_tx
 lora_gps_tx_OBJECTS = \
 "CMakeFiles/lora_gps_tx.dir/lora_gps_tx.cpp.o" \
-"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/ArduinoHal.cpp.o" \
-"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/Hal.cpp.o" \
-"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/Module.cpp.o" \
-"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/CC1101/CC1101.cpp.o" \
-"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LLCC68/LLCC68.cpp.o" \
-"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LR11x0/LR1110.cpp.o" \
-"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LR11x0/LR1120.cpp.o" \
-"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LR11x0/LR1121.cpp.o" \
-"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LR11x0/LR11x0.cpp.o" \
-"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/RF69/RF69.cpp.o" \
-"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX123x/SX1231.cpp.o" \
-"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX123x/SX1233.cpp.o" \
-"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/STM32WLx.cpp.o" \
-"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/STM32WLx_Module.cpp.o" \
-"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/SX1261.cpp.o" \
-"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/SX1262.cpp.o" \
-"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/SX1268.cpp.o" \
-"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/SX126x.cpp.o" \
-"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1272.cpp.o" \
-"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1273.cpp.o" \
-"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1276.cpp.o" \
-"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1277.cpp.o" \
-"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1278.cpp.o" \
-"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1279.cpp.o" \
-"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX127x.cpp.o" \
-"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX128x/SX1280.cpp.o" \
-"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX128x/SX1281.cpp.o" \
-"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX128x/SX1282.cpp.o" \
-"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX128x/SX128x.cpp.o" \
-"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/Si443x/Si4430.cpp.o" \
-"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/Si443x/Si4431.cpp.o" \
-"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/Si443x/Si4432.cpp.o" \
-"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/Si443x/Si443x.cpp.o" \
-"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/nRF24/nRF24.cpp.o" \
-"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/AFSK/AFSK.cpp.o" \
-"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/APRS/APRS.cpp.o" \
-"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/AX25/AX25.cpp.o" \
-"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/BellModem/BellModem.cpp.o" \
-"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/ExternalRadio/ExternalRadio.cpp.o" \
-"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/FSK4/FSK4.cpp.o" \
-"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Hellschreiber/Hellschreiber.cpp.o" \
-"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/LoRaWAN/LoRaWAN.cpp.o" \
-"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/LoRaWAN/LoRaWANBands.cpp.o" \
-"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Morse/Morse.cpp.o" \
-"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Pager/Pager.cpp.o" \
-"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/PhysicalLayer/PhysicalLayer.cpp.o" \
-"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Print/ITA2String.cpp.o" \
-"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Print/Print.cpp.o" \
-"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/RTTY/RTTY.cpp.o" \
-"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/SSTV/SSTV.cpp.o" \
-"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/utils/CRC.cpp.o" \
-"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/utils/Cryptography.cpp.o" \
-"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/utils/FEC.cpp.o"
+"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/ArduinoHal.cpp.o" \
+"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/Hal.cpp.o" \
+"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/Module.cpp.o" \
+"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/CC1101/CC1101.cpp.o" \
+"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LLCC68/LLCC68.cpp.o" \
+"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR1110.cpp.o" \
+"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR1120.cpp.o" \
+"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR1121.cpp.o" \
+"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR11x0.cpp.o" \
+"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/RF69/RF69.cpp.o" \
+"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX123x/SX1231.cpp.o" \
+"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX123x/SX1233.cpp.o" \
+"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/STM32WLx.cpp.o" \
+"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/STM32WLx_Module.cpp.o" \
+"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX1261.cpp.o" \
+"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX1262.cpp.o" \
+"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX1268.cpp.o" \
+"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX126x.cpp.o" \
+"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1272.cpp.o" \
+"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1273.cpp.o" \
+"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1276.cpp.o" \
+"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1277.cpp.o" \
+"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1278.cpp.o" \
+"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1279.cpp.o" \
+"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX127x.cpp.o" \
+"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX1280.cpp.o" \
+"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX1281.cpp.o" \
+"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX1282.cpp.o" \
+"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX128x.cpp.o" \
+"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si4430.cpp.o" \
+"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si4431.cpp.o" \
+"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si4432.cpp.o" \
+"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si443x.cpp.o" \
+"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/nRF24/nRF24.cpp.o" \
+"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/AFSK/AFSK.cpp.o" \
+"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/APRS/APRS.cpp.o" \
+"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/AX25/AX25.cpp.o" \
+"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/BellModem/BellModem.cpp.o" \
+"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/ExternalRadio/ExternalRadio.cpp.o" \
+"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/FSK4/FSK4.cpp.o" \
+"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Hellschreiber/Hellschreiber.cpp.o" \
+"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/LoRaWAN/LoRaWAN.cpp.o" \
+"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/LoRaWAN/LoRaWANBands.cpp.o" \
+"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Morse/Morse.cpp.o" \
+"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Pager/Pager.cpp.o" \
+"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/PhysicalLayer/PhysicalLayer.cpp.o" \
+"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Print/ITA2String.cpp.o" \
+"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Print/Print.cpp.o" \
+"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/RTTY/RTTY.cpp.o" \
+"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/SSTV/SSTV.cpp.o" \
+"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/utils/CRC.cpp.o" \
+"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/utils/Cryptography.cpp.o" \
+"CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/utils/FEC.cpp.o"
 
 # External object files for target lora_gps_tx
 lora_gps_tx_EXTERNAL_OBJECTS =
 
 lora_gps_tx: CMakeFiles/lora_gps_tx.dir/lora_gps_tx.cpp.o
-lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/ArduinoHal.cpp.o
-lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/Hal.cpp.o
-lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/Module.cpp.o
-lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/CC1101/CC1101.cpp.o
-lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LLCC68/LLCC68.cpp.o
-lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LR11x0/LR1110.cpp.o
-lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LR11x0/LR1120.cpp.o
-lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LR11x0/LR1121.cpp.o
-lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/LR11x0/LR11x0.cpp.o
-lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/RF69/RF69.cpp.o
-lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX123x/SX1231.cpp.o
-lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX123x/SX1233.cpp.o
-lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/STM32WLx.cpp.o
-lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/STM32WLx_Module.cpp.o
-lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/SX1261.cpp.o
-lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/SX1262.cpp.o
-lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/SX1268.cpp.o
-lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX126x/SX126x.cpp.o
-lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1272.cpp.o
-lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1273.cpp.o
-lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1276.cpp.o
-lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1277.cpp.o
-lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1278.cpp.o
-lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX1279.cpp.o
-lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX127x/SX127x.cpp.o
-lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX128x/SX1280.cpp.o
-lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX128x/SX1281.cpp.o
-lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX128x/SX1282.cpp.o
-lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/SX128x/SX128x.cpp.o
-lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/Si443x/Si4430.cpp.o
-lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/Si443x/Si4431.cpp.o
-lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/Si443x/Si4432.cpp.o
-lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/Si443x/Si443x.cpp.o
-lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/modules/nRF24/nRF24.cpp.o
-lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/AFSK/AFSK.cpp.o
-lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/APRS/APRS.cpp.o
-lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/AX25/AX25.cpp.o
-lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/BellModem/BellModem.cpp.o
-lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/ExternalRadio/ExternalRadio.cpp.o
-lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/FSK4/FSK4.cpp.o
-lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Hellschreiber/Hellschreiber.cpp.o
-lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/LoRaWAN/LoRaWAN.cpp.o
-lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/LoRaWAN/LoRaWANBands.cpp.o
-lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Morse/Morse.cpp.o
-lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Pager/Pager.cpp.o
-lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/PhysicalLayer/PhysicalLayer.cpp.o
-lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Print/ITA2String.cpp.o
-lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/Print/Print.cpp.o
-lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/RTTY/RTTY.cpp.o
-lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/protocols/SSTV/SSTV.cpp.o
-lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/utils/CRC.cpp.o
-lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/utils/Cryptography.cpp.o
-lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456/RadioLib/src/utils/FEC.cpp.o
+lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/ArduinoHal.cpp.o
+lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/Hal.cpp.o
+lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/Module.cpp.o
+lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/CC1101/CC1101.cpp.o
+lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LLCC68/LLCC68.cpp.o
+lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR1110.cpp.o
+lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR1120.cpp.o
+lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR1121.cpp.o
+lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/LR11x0/LR11x0.cpp.o
+lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/RF69/RF69.cpp.o
+lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX123x/SX1231.cpp.o
+lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX123x/SX1233.cpp.o
+lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/STM32WLx.cpp.o
+lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/STM32WLx_Module.cpp.o
+lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX1261.cpp.o
+lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX1262.cpp.o
+lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX1268.cpp.o
+lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX126x/SX126x.cpp.o
+lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1272.cpp.o
+lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1273.cpp.o
+lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1276.cpp.o
+lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1277.cpp.o
+lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1278.cpp.o
+lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX1279.cpp.o
+lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX127x/SX127x.cpp.o
+lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX1280.cpp.o
+lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX1281.cpp.o
+lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX1282.cpp.o
+lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/SX128x/SX128x.cpp.o
+lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si4430.cpp.o
+lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si4431.cpp.o
+lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si4432.cpp.o
+lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/Si443x/Si443x.cpp.o
+lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/modules/nRF24/nRF24.cpp.o
+lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/AFSK/AFSK.cpp.o
+lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/APRS/APRS.cpp.o
+lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/AX25/AX25.cpp.o
+lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/BellModem/BellModem.cpp.o
+lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/ExternalRadio/ExternalRadio.cpp.o
+lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/FSK4/FSK4.cpp.o
+lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Hellschreiber/Hellschreiber.cpp.o
+lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/LoRaWAN/LoRaWAN.cpp.o
+lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/LoRaWAN/LoRaWANBands.cpp.o
+lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Morse/Morse.cpp.o
+lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Pager/Pager.cpp.o
+lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/PhysicalLayer/PhysicalLayer.cpp.o
+lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Print/ITA2String.cpp.o
+lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/Print/Print.cpp.o
+lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/RTTY/RTTY.cpp.o
+lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/protocols/SSTV/SSTV.cpp.o
+lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/utils/CRC.cpp.o
+lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/utils/Cryptography.cpp.o
+lora_gps_tx: CMakeFiles/lora_gps_tx.dir/home/limccart/EE456-limccart/RadioLib/src/utils/FEC.cpp.o
 lora_gps_tx: CMakeFiles/lora_gps_tx.dir/build.make
 lora_gps_tx: /usr/local/lib/libwiringPi.so
 lora_gps_tx: CMakeFiles/lora_gps_tx.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/limccart/EE456/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Linking CXX executable lora_gps_tx"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/limccart/EE456-limccart/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Linking CXX executable lora_gps_tx"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lora_gps_tx.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -954,6 +954,6 @@ CMakeFiles/lora_gps_tx.dir/clean:
 .PHONY : CMakeFiles/lora_gps_tx.dir/clean
 
 CMakeFiles/lora_gps_tx.dir/depend:
-	cd /home/limccart/EE456/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/limccart/EE456/src /home/limccart/EE456/src /home/limccart/EE456/build /home/limccart/EE456/build /home/limccart/EE456/build/CMakeFiles/lora_gps_tx.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/limccart/EE456-limccart/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/limccart/EE456-limccart/src /home/limccart/EE456-limccart/src /home/limccart/EE456-limccart/build /home/limccart/EE456-limccart/build /home/limccart/EE456-limccart/build/CMakeFiles/lora_gps_tx.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/lora_gps_tx.dir/depend
 

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/limccart/EE456/src/../RadioLib/src
+CXX_INCLUDES = -I/home/limccart/EE456-limccart/src/../RadioLib/src
 
 CXX_FLAGS = 
 

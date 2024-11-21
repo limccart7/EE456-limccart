@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/limccart/EE456/src/client.cpp" "CMakeFiles/client_gps.dir/client.cpp.o" "gcc" "CMakeFiles/client_gps.dir/client.cpp.o.d"
+  "/home/limccart/EE456-limccart/src/client.cpp" "CMakeFiles/client_gps.dir/client.cpp.o" "gcc" "CMakeFiles/client_gps.dir/client.cpp.o.d"
   )
 
 # Targets to which this target links.

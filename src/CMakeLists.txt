@@ -8,7 +8,7 @@ include_directories("../RadioLib/src")
 
 # Add the executables
 add_executable(lora_rx lora_rx.cpp)
-add_executable(rx_cleint rx_client.cpp)
+add_executable(rx_client rx_client.cpp)
 add_executable(lora_gps_tx lora_gps_tx.cpp)
 add_executable(lora_tx lora_tx.cpp)
 add_executable(fsk_tx fsk_tx.cpp)
