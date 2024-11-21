@@ -55,7 +55,7 @@ int main(int argc, char** argv) {
 
   // Main loop
   uint8_t buff[256] = { 0 };
-  for(;;) {
+  while(true) {
     if(receivedFlag) {
       // Reset flag
       receivedFlag = false;
@@ -71,6 +71,7 @@ int main(int argc, char** argv) {
         printf("Data: %s\n", (char*)buff);
       }
     }
+    hal->delay(1000);
   }
 
   return(0);
