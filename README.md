@@ -19,16 +19,16 @@ Reboot your Raspberry Pi.
 
 --Run  `sudo apt update && sudo apt install -y cmake git`  
 1. Enable SPI on the Raspberry Pi:   
-   Run the following commands to enable SPI:
-   `sudo raspi-config`
-   Navigate to Interfacing Options -> SPI and enable it. Reboot
-   your Raspberry Pi.
-2. Install Required Dependencies:
-   Update your system and install necessary tools:
+   Run the following commands to enable SPI:   
+   `sudo raspi-config`   
+   Navigate to Interfacing Options -> SPI and enable it. Reboot   
+   your Raspberry Pi.   
+2. Install Required Dependencies:   
+   Update your system and install necessary tools:   
    `sudo apt update && sudo apt install -y cmake git`   
 3. Clone the GitHub Repository for EE456:   
-`git clone https://github.com/limccart7/EE456.git`
-`cd EE456`
+`git clone https://github.com/limccart7/EE456.git`   
+`cd EE456`   
   
 Navigate into the 'EE456' directory.  
 
@@ -73,20 +73,20 @@ On the transmitting Raspberry Pi, run the GPS transmission script:
 2. **Start the Lora Receiver/Client**:  
 On the receiving Raspberry Pi, initialize the LoRa receiver/Client:  
 `sudo ./rx_client`  
-Check for errors and verify successful reception.
+Check for errors and verify successful reception.   
 
-3. **Start the TCP/IP Server**:
-On the third Raspberry Pi, run the server script to receive and store data:
-`sudo ./server`
+3. **Start the TCP/IP Server**:   
+On the third Raspberry Pi, run the server script to receive and store data:   
+`sudo ./server`   
 
-## Troubleshooting
-- SPI Issues:
-  Ensure SPI is enabled on all Raspberry Pis. Reboot after enabling SPI.
-- Transmission Errors:
-  Verify the wiring and power connections for the SX1262 LoRa module.
-- TCP/IP Connection Errors:
-  Check the IP addresses and ports in the client and server scripts.
-  Ensure all devices are on the same network. 
+## Troubleshooting   
+- SPI Issues:   
+  Ensure SPI is enabled on all Raspberry Pis. Reboot after enabling SPI.   
+- Transmission Errors:   
+  Verify the wiring and power connections for the SX1262 LoRa module.   
+- TCP/IP Connection Errors:   
+  Check the IP addresses and ports in the client and server scripts.   
+  Ensure all devices are on the same network.  
 
 ## Additional Resources  
 

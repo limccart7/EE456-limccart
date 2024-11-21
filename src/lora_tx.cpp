@@ -64,7 +64,7 @@ int main() {
     tcsetattr(serial_port, TCSANOW, &tty);
 
 
-    int state = radio.begin(915.0, 250.0, 7, 5, RADIOLIB_SX126X_SYNC_WORD_PRIVATE, 10, 8, 0.0, false);
+    int state = radio.begin(915.0, 125.0, 7, 5, RADIOLIB_SX126X_SYNC_WORD_PRIVATE, 10, 8, 0.0, false);
     if (state != RADIOLIB_ERR_NONE) {
         printf("Initialization failed, code %d\n", state);
         return 1;
