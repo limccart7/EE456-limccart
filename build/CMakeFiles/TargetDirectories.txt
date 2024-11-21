@@ -1,0 +1,9 @@
+/home/limccart/EE456/build/CMakeFiles/lora_rx.dir
+/home/limccart/EE456/build/CMakeFiles/lora_gps_tx.dir
+/home/limccart/EE456/build/CMakeFiles/lora_tx.dir
+/home/limccart/EE456/build/CMakeFiles/fsk_tx.dir
+/home/limccart/EE456/build/CMakeFiles/fsk_rx.dir
+/home/limccart/EE456/build/CMakeFiles/client_gps.dir
+/home/limccart/EE456/build/CMakeFiles/server.dir
+/home/limccart/EE456/build/CMakeFiles/edit_cache.dir
+/home/limccart/EE456/build/CMakeFiles/rebuild_cache.dir

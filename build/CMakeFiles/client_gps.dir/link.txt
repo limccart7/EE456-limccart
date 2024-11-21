@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/client_gps.dir/client.cpp.o -o client_gps  -Wl,-rpath,/usr/local/lib /usr/local/lib/libwiringPi.so 

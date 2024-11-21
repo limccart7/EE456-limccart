@@ -1,0 +1,8 @@
+freq=915.0
+br=4.8
+freqDev=5.0
+rxBw=156.2
+power=10
+preambleLength=16
+tcxoVoltage=1.6
+useRegulatorLDO=true
